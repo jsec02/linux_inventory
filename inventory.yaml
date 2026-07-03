@@ -267,6 +267,7 @@ machines:
         - guestmount
         - libguestfs-tools
         - checksec
+        - ldap-utils
       pip2:
         - impacket
         - termcolor
