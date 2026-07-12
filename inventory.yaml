@@ -219,7 +219,6 @@ machines:
         - ripgrep
         - rlwrap
         - rsync
-        - rsync
         - seclists
         - smbclient
         - speedtest-cli
