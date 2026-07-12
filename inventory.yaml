@@ -497,6 +497,8 @@ yazi:
     - kali
   links:
     /home/master/dotfiles/yazi: /home/master/.config/yazi
+  paths:
+    - /mnt/c/Users/master/AppData/Roaming/yazi/config/
 zellij:
   machines:
     - wsl
