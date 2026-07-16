@@ -11,10 +11,9 @@ Declarative infrastructure and source of truth for personal configuration manage
 Language                     files          blank        comment           code
 -------------------------------------------------------------------------------
 YAML                             1              0              0            543
-Python                           1             47              3             95
 Markdown                         1              8              4             22
 -------------------------------------------------------------------------------
-SUM:                             3             55              7            660
+SUM:                             2              8              4            565
 -------------------------------------------------------------------------------
 ```
 <!-- CODE_STATISTICS_END -->
@@ -26,9 +25,8 @@ SUM:                             3             55              7            660
 ```
 inventory
 ├── inventory.yaml
-├── parser.py
 └── README.md
 
-1 directory, 3 files
+1 directory, 2 files
 ```
 <!-- PROJECT_STRUCTURE_END -->
