@@ -541,3 +541,10 @@ powershell-profile:
     - wsl
   paths:
     - /mnt/c/Users/master/Documents/PowerShell/Microsoft.PowerShell_profile.ps1
+parsers:
+  machines:
+    - wsl
+    - pi
+    - kali
+  paths:
+    - /home/master/parsers
