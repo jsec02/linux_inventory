@@ -286,7 +286,6 @@ ssh:
     /home/master/dotfiles/ssh/config: /home/master/.ssh/config
   paths:
     - /home/master/.ssh
-    - /mnt/c/Users/master/.ssh
 inventory:
   machines:
     - wsl
@@ -301,8 +300,6 @@ atuin:
     - kali
   links:
     /home/master/dotfiles/atuin: /home/master/.config/atuin
-  paths:
-    - /mnt/c/Users/master/.config/atuin/config.toml
 autostart:
   machines:
     - kali
@@ -363,7 +360,6 @@ history:
     - kali
   paths:
     - /home/master/.local/share/atuin/history.db
-    - /mnt/c/Users/master/.local/share/atuin/history.db
 homepage:
   machines:
     - pi
@@ -482,13 +478,7 @@ wsl:
     - wsl
   paths:
     - /etc/wsl.conf
-    - /mnt/c/Users/master/.wslconfig
   sudo: true
-windows-terminal:
-  machines:
-    - wsl
-  paths:
-    - /mnt/c/Users/master/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/settings.json
 yazi:
   machines:
     - wsl
@@ -496,8 +486,6 @@ yazi:
     - kali
   links:
     /home/master/dotfiles/yazi: /home/master/.config/yazi
-  paths:
-    - /mnt/c/Users/master/AppData/Roaming/yazi/config/
 zellij:
   machines:
     - wsl
@@ -505,8 +493,6 @@ zellij:
     - kali
   links:
     /home/master/dotfiles/zellij: /home/master/.config/zellij
-  paths:
-    - /mnt/c/Users/master/AppData/Roaming/Zellij/config
 zsh:
   machines:
     - wsl
@@ -536,11 +522,6 @@ bin:
     - kali
   paths:
     - /home/master/bin
-powershell-profile:
-  machines:
-    - wsl
-  paths:
-    - /mnt/c/Users/master/Documents/PowerShell/Microsoft.PowerShell_profile.ps1
 parsers:
   machines:
     - wsl
