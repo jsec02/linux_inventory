@@ -286,6 +286,8 @@ ssh:
     /home/master/dotfiles/ssh/config: /home/master/.ssh/config
   paths:
     - /home/master/.ssh
+    - /root/.ssh
+  sudo: true
 inventory:
   machines:
     - wsl
