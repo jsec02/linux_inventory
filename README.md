@@ -1,6 +1,6 @@
-### inventory
+### linux_inventory
 
-Declarative infrastructure and source of truth for personal configuration management system
+Declarative infrastructure and source of truth for linux based personal configuration management system
 
 <!-- CODE_STATISTICS_START -->
 
@@ -23,7 +23,7 @@ SUM:                             2              8              4            553
 ### Project Structure
 
 ```
-inventory
+linux_inventory
 ├── inventory.yaml
 └── README.md
 
