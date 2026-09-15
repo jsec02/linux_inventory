@@ -86,6 +86,7 @@ machines:
         - dfu-util
         - dos2unix
         - mariadb
+        - vim
       pip3:
         - pyyaml
         - ipdb
