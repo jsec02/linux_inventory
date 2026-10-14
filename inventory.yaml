@@ -288,6 +288,7 @@ ssh:
   paths:
     - /home/master/.ssh
     - /root/.ssh
+    - /etc/ssh
   sudo: true
 inventory:
   machines:
