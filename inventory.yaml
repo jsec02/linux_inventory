@@ -278,6 +278,7 @@ machines:
         - telnetlib3
         - pwn
         - pypykatz
+        - pysmb
 ssh:
   machines:
     - wsl
