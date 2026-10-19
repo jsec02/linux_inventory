@@ -279,6 +279,7 @@ machines:
         - pwn
         - pypykatz
         - pysmb
+        - pwntools
 ssh:
   machines:
     - wsl
