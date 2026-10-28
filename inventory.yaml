@@ -269,6 +269,7 @@ machines:
         - checksec
         - ldap-utils
         - freerdp-x11
+        - lftp
       pip2:
         - impacket
         - termcolor
