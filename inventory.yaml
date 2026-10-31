@@ -270,6 +270,7 @@ machines:
         - ldap-utils
         - freerdp-x11
         - lftp
+        - ssh-audit
       pip2:
         - impacket
         - termcolor
