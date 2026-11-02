@@ -539,3 +539,8 @@ parsers:
     - kali
   paths:
     - /home/master/parsers
+revshells:
+  machines:
+    - kali
+  paths:
+    - /home/master/revshells
