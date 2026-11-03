@@ -432,6 +432,7 @@ python:
   machines:
     - wsl
     - pi
+    - kali
   paths:
     - /home/master/python
 qgmlwy:
