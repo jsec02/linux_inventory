@@ -272,6 +272,7 @@ machines:
         - lftp
         - ssh-audit
         - sstimap
+        - tinja
       pip2:
         - impacket
         - termcolor
