@@ -271,6 +271,7 @@ machines:
         - freerdp-x11
         - lftp
         - ssh-audit
+        - sstimap
       pip2:
         - impacket
         - termcolor
