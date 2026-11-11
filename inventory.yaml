@@ -547,3 +547,8 @@ revshells:
     - kali
   paths:
     - /home/master/revshells
+webshells:
+  machines:
+    - kali
+  paths:
+    - /home/master/webshells
