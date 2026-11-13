@@ -273,6 +273,7 @@ machines:
         - ssh-audit
         - sstimap
         - tinja
+        - cewl
       pip2:
         - impacket
         - termcolor
