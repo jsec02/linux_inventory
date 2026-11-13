@@ -274,6 +274,7 @@ machines:
         - sstimap
         - tinja
         - cewl
+        - joomscan
       pip2:
         - impacket
         - termcolor
